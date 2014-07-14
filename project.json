@@ -1,0 +1,29 @@
+{
+
+   "plugin":
+	{
+		"mui":"1"
+	},
+
+	"project":
+	{
+		"name":"NewFlickr_MUI",
+		"version":"0.1.0",
+		"id":"project-id",
+      
+		"devDependencies": 
+		{
+			"mcover": "2.x",
+			"hamcrest": "1.2.x",
+			"munit": "2.x"
+		},
+		
+		"dependencies":
+		{
+			"mmvc": "1.4.x",
+			"mloader": "master",
+			"mui": "3.x",
+			"mockatoo": "3.x"
+		}
+	}
+}

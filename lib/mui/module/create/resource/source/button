@@ -1,0 +1,39 @@
+${licenseBlock}${packageBlock}import m.ui.core.Button;
+import m.display.Text;
+import m.display.Color;
+
+${docBlock}class ${typeName} extends DataButton<String>
+{
+	var title:Text;
+
+	public function new()
+	{
+		super();
+
+		width = 200;
+		height = 40;
+
+		fill = new Color(0xFFFFFF);
+
+		title = new Text();
+		addChild(title);
+
+		title.centerY = 0.5;
+		title.x = 10;
+	}
+
+	override function updateData(value:String)
+	{
+		title.value = value;
+	}
+
+	override function change(flag:Dynamic)
+	{
+		super.change(flag);
+
+		if (flag.focused)
+		{
+			cast(fill, Color).value = focused ? 0xFFCC33 : 0xFFFFFF;
+		}
+	}
+}

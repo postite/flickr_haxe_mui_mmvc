@@ -1,0 +1,12 @@
+{
+	"plugin":
+	{
+		"mui":"1"
+	},
+	"project":
+	{
+		"name":"DemoProject",
+		"version":"0.1.0",
+		"id":"demo"
+	}
+}

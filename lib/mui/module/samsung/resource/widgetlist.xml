@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rsp stat="ok">
+	<list>
+		<widget id="${id}">
+			<title>${id}</title>
+			<compression size="${size}" type="zip" />
+			<description></description>
+			<download>samsung.zip</download>
+		</widget>
+	</list>
+</rsp>

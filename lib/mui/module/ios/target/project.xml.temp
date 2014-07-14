@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="${title}" package="${packageID}" version="${build.project.version}" company="${build.user.organization}" />
+	<app main="${main}" file="${build.project.name}" />
+	<window width="0" height="0" fps="60" background="#${backgroundHex}" orientation="${orientation}"/>
+
+	<set name="BUILD_DIR" value="bin" />
+	<haxelib name="openfl" />
+	
+	${block}
+
+	<icon path="icon/57.png" size="57"/>
+	<icon path="icon/72.png" size="72"/>
+	<icon path="icon/114.png" size="114"/>
+	<icon path="icon/144.png" size="144"/>
+
+	<launchImage path="Default.png" width="320" height="480" />
+	<launchImage path="Default@2X.png" width="640" height="960" />
+	<launchImage path="Default-568h@2x.png" width="640" height="1136" />
+	<launchImage path="Default-Portrait~ipad.png" width="768" height="1024" />
+	<launchImage path="Default-Portrait@2x~ipad.png" width="1536" height="2048" />
+	<launchImage path="Default-Landscape~ipad.png" width="1024" height="768" />
+	<launchImage path="Default-Landscape@2x~ipad.png" width="2048" height="1536" />
+
+	<assets path="font" include="*"></assets>
+	<assets path="asset" include="*"></assets>
+	<assets path="image" include="*"></assets>
+	
+	<ndll name="std"></ndll>
+	<ndll name="regexp"></ndll>
+	<ndll name="zlib"></ndll>
+	<ndll name="nme" haxelib="nme"></ndll>
+</project>

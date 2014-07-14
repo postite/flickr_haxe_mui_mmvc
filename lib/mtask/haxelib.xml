@@ -1,0 +1,8 @@
+<project name="mtask" url="http://github.com/massiveinteractive/mtask" license="MIT">
+	<user name="massive"/>
+	<description><![CDATA[A build tool written in Haxe.]]></description>
+	<version name="3.6.0"><![CDATA[]]></version>
+	<depends name="msys"/>
+	<depends name="mconsole"/>
+	<depends name="mcore"/>
+</project>

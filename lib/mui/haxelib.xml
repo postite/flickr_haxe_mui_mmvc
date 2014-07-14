@@ -1,0 +1,12 @@
+<project name="mui" url="http://github.com/massiveinteractive/MassiveUI" license="Closed">
+	<user name="default.user"/>
+	<description><![CDATA[A user interface library written in Haxe that targets Javascript/HTML, Flash/AIR and C++/SDL (native Win32, OS X, Linux, Android, iOS)]]></description>
+	<version name="3.1.0"><![CDATA[3.1 release]]></version>
+	<depends name="mmvc"/>
+	<depends name="msignal"/>
+	<depends name="mconsole"/>
+	<depends name="mcore"/>
+	<depends name="mdata"/>
+	<depends name="mloader"/>
+	<depends name="mtask"/>
+</project>

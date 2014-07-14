@@ -1,0 +1,24 @@
+{
+	"project": 
+	{
+		"name": "MassiveData",
+		"version": "2.2.0",
+		"id": "mdata",
+		"devDependencies": 
+		{
+			"mcover": "2.x",
+			"hamcrest": "1.x",
+			"mtask": "3.x",
+			"munit": "2.x"
+		},
+		"dependencies": 
+		{
+			"msignal": ">=1.2 <2",
+			"mcore": ">=1.2 <2"
+		}
+	},
+	"haxelib": 
+	{
+		"user": "massive"
+	}
+}

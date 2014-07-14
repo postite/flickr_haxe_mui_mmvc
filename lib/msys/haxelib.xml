@@ -1,0 +1,10 @@
+<project name="msys" url="http://github.com/massiveinteractive/msys" license="MIT">
+	<user name="massive"/>
+	<description><![CDATA[A cross platform Haxe library for working with system targets, including file, process and runloop utilities. Currently supports Neko and C++.]]></description>
+	<version name="1.2.1"><![CDATA[Added haxelib.json]]></version>
+	<depends name="mconsole"/>
+	<depends name="mcore"/>
+	<tag v="utility"/>
+	<tag v="sys"/>
+	<tag v="massive"/>
+</project>

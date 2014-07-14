@@ -1,0 +1,10 @@
+<project name="mdata" url="http://github.com/massiveinteractive/mdata" license="MIT">
+	<user name="massive"/>
+	<description><![CDATA[A cross platform data structure and collections library supporting all Haxe targets.]]></description>
+	<version name="2.2.0"><![CDATA[See https://github.com/massiveinteractive/mdata/blob/master/CHANGES.md]]></version>
+	<depends name="msignal"/>
+	<depends name="mcore"/>
+	<tag v="massive"/>
+	<tag v="cross"/>
+	<tag v="utility"/>
+</project>

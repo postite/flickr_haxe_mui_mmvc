@@ -1,0 +1,125 @@
+(function(){
+function loadScript(src, callback) {
+	var script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.src = src;
+	document.body.appendChild(script);
+	if (callback != undefined) {        
+	    script.onload = callback;
+	}
+}
+
+function showUnsupported(targets) {
+	var message = '<div>You need a modern browser or Adobe Flash to use this application:</div>\n';
+	for (var i = 0; i < targets.length; i++) {
+		var target = targets[i];
+		message += '<li>'+target.name+' '+target.min+'+</li>\n';
+	}
+	message += '<small style="color:silver;">'+navigator.userAgent+'</small>';
+	var div = document.createElement('div');
+	div.innerHTML = message;
+	div.id = "unsupported";
+	document.body.appendChild(div);
+}
+
+function detect(browsers, flashVersion) {
+	var agent = navigator.userAgent;
+
+	var platform, platforms = ["like Mac OS X", "Mac OS X", "Windows", "Android", "BlackBerry", "Linux"];
+	for (var i = 0; i < platforms.length; i++) {
+		if (agent.match(platforms[i])) {
+			if (platforms[i] == "like Mac OS X") platform = "ios";
+			else platform = platforms[i].toLowerCase();
+			break;
+		}
+	}
+
+	var filtered = [];
+	for (var i = 0; i < browsers.length; i++) {
+		if (platform.match(browsers[i].platform)) filtered.push(browsers[i]);
+	}
+
+	var browser, version;
+	for (var i = 0; i < filtered.length; i++) {
+		var target = filtered[i];
+
+		var version = agent.match(target.match);
+		if (version) {
+			version = [parseInt(version[1]), parseInt(version[2])];
+			var min = target.min.split('.');
+			min = [parseInt(min[0]), parseInt(min[1]) | 0];
+			if (version[0] >= min[0] || (version[0] == min[0] && version[1] >= min[1])) {
+				browser = target;
+				break;
+			}
+		}
+	}
+
+	var device = "";
+	if (agent.match(/iPhone|iPod|iPad|Android|BlackBerry|Mobile|Touch/)) {
+		// Using clientWidth as agnostic to whether device reports screen.width/height in dips or pixels.
+		// http://www.quirksmode.org/blog/archives/2012/07/more_about_devi.html
+
+		var tabletMinDips = 740;
+		var widthDips = document.documentElement.clientWidth;
+		var heightDips = document.documentElement.clientHeight;
+
+		if (heightDips < tabletMinDips)
+		{
+			// even though clientHeight is in dips it can return a low value if the
+			// native keyboard is open, squashing the browser window.
+			// Here we calculate the dips manually, which is more error prone but needed as second line of detection.
+
+			if (platform == "ios") { // on iOS screen.width and height are in dips already.
+				heightDips = screen.height;
+			} else if (platform == "android") { // on android we need to convert to dips
+				heightDips = Math.floor(screen.height / window.devicePixelRatio);
+			}
+		}
+
+		if (widthDips < tabletMinDips || heightDips < tabletMinDips) {
+			device = ".mobile";
+		} else {
+			device = ".tablet";
+		}
+	}
+	
+	if (browser) {
+		loadScript("${params.baseUrl}index" + device + ".js");
+	} else {
+		if (flashVersion != undefined && platform.match(/windows|mac os x|linux/)) {
+			loadScript('swfobject.js', function(e){
+				if (swfobject.hasFlashPlayerVersion(flashVersion)) {
+					var div = document.createElement('div');
+					div.id = "flash";
+					document.body.appendChild(div);
+					swfobject.embedSWF("${params.baseUrl}index.swf", "flash", "100%", "100%", flashVersion);
+				} else {
+					filtered.push({name:'Flash Player', min:flashVersion});
+					showUnsupported(filtered);
+				}
+			});
+		} else {
+			showUnsupported(filtered);
+		}
+	}
+}
+
+var browsers = [
+	{ name:'Opera Mobile', min:'12', match:/Opera Mobi.+?Version\/(\d+)\.(\d+)/, platform:/android/ },
+	{ name:'Opera', min:'11.6', match:/(?:Opera|OPR).(\d+)\.(\d+)/, platform:/mac os x|windows/ },
+	{ name:'BlackBerry Browser', min:'10', match:/BlackBerry.+?Version\/(\d+)\.(\d+)/, platform:/blackberry/ },
+	{ name:'Internet Explorer', min:'9.0', match:/MSIE (\d+)\.(\d+)/, platform:/windows/ },
+	{ name:'Chrome for Android', min:'27', match:/Android.+?Chrome\/(\d+)\.(\d+)/, platform:/android/ },
+	{ name:'Chrome', min:'10', match:/Chrome\/(\d+)\.(\d+)/, platform:/mac os x|windows|linux/ },
+	{ name:'Firefox for Android', min:'22', match:/Android.+?Firefox\/(\d+)\.(\d+)/, platform:/android/ },
+	{ name:'Firefox', min:'4.0', match:/Firefox\/(\d+)\.(\d+)/, platform:/mac os x|windows|linux/ },
+	{ name:'Safari', min:'5.1', match:/Version\/(\d+)\.(\d+)(\.\d)*\ Safari/, platform:/mac os x/ },
+	{ name:'Chrome for iOS', min:'19', match:/(?:iPod|iPhone|iPad).+?CriOS\/(\d+)\.(\d+)(\.\d+)? Mobile/, platform:/ios/ },
+	{ name:'Mobile Safari', min:'5', match:/(?:iPod|iPhone|iPad).+?Version\/(\d+)\.(\d+)/, platform:/ios/ },
+	{ name:'Mobile Safari (iOS Simulator)', min:'5', match:/(?:iPod|iPhone|iPad).+?AppleWebKit\/(\d+)\.(\d+)(?!.+?Version)/, platform:/ios/ },
+	{ name:'Android Browser', min:'4', match:/Android (\d+)\.(\d+)/, platform:/android/ }
+];
+
+detect(browsers, "${minimumFlashVersion}");
+}());

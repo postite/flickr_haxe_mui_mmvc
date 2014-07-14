@@ -1,0 +1,15 @@
+input.view { -moz-user-select:text; }
+input, select, textarea { background-color: transparent; border: 0; -webkit-appearance: none; }
+input:focus, select:focus, textarea:focus { outline: none; }
+/* Hides placeholder text on focus */
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder { color: transparent; }
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder { color: transparent; }
+/* Enforce consistent placeholder styling between browsers */
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #a9a9a9; text-overflow: ellipsis; }
+input::-moz-placeholder, textarea::-moz-placeholder { color: #a9a9a9; opacity: 1; text-overflow: ellipsis; }
+input:-moz-placeholder, textarea:-moz-placeholder { color: #a9a9a9 !important; opacity: 1; text-overflow: ellipsis; }
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { color: #a9a9a9 !important; text-overflow: ellipsis; }
+/* Hide native elements but allow actioning them */
+.view-select { opacity: 0; }
+.view-radio { opacity: 0; }
+.view-checkbox { opacity: 0; }

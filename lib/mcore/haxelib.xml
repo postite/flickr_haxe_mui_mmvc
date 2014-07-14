@@ -1,0 +1,10 @@
+<project name="mcore" url="http://github.com/massiveinteractive/mcore" license="MIT">
+	<user name="default.user"/>
+	<description><![CDATA[A collection of lightweight, platform independent utilities that simplify cross platform development in Haxe.]]></description>
+	<version name="1.3.10"><![CDATA[See https://github.com/massiveinteractive/mcore/blob/master/CHANGES.md]]></version>
+	<depends name="msignal"/>
+	<depends name="mconsole"/>
+	<tag v="massive"/>
+	<tag v="cross"/>
+	<tag v="utility"/>
+</project>

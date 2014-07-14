@@ -1,0 +1,28 @@
+{
+	"plugin": 
+	{
+		"mui": "1"
+	},
+	"project": 
+	{
+		"name": "MassiveUI",
+		"version": "3.4.0",
+		"id": "mui",
+		"devDependencies": 
+		{
+			"mcover": "2.x",
+			"hamcrest": "1.2.x",
+			"munit": "2.x"
+		},
+		"dependencies": 
+		{
+			"mmvc": ">=1.3 <2",
+			"msignal": ">=1.2 <2",
+			"mconsole": ">=1.3 <2",
+			"mcore": ">=1.2 <2",
+			"mdata": "2.x",
+			"mloader": ">=2.2 <3",
+			"mtask": ">=3.2 <4"
+		}
+	}
+}

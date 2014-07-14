@@ -1,0 +1,19 @@
+{
+	"project": 
+	{
+		"name": "MassiveSignal",
+		"version": "1.2.3",
+		"id": "msignal",
+		"devDependencies": 
+		{
+			"mcover": "2.x",
+			"hamcrest": "1.x",
+			"mtask": "2.x",
+			"munit": "2.x"
+		},
+		"dependencies": 
+		{
+
+		}
+	}
+}

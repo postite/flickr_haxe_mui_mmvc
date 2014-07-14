@@ -1,0 +1,781 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gall",
+				"galleryItem"
+			],
+			[
+				"G",
+				"GalleryModel"
+			],
+			[
+				"lef",
+				"leftButton"
+			],
+			[
+				"add",
+				"addChild"
+			],
+			[
+				"dis",
+				"dispatch"
+			],
+			[
+				"Applicatio",
+				"ApplicationView"
+			],
+			[
+				"im",
+				"imgUrl"
+			],
+			[
+				"Ga",
+				"galleryDetailedView"
+			],
+			[
+				"app",
+				"appView"
+			],
+			[
+				"Gal",
+				"GalleryModel"
+			],
+			[
+				"Galler",
+				"GalleryItemViewMediator"
+			],
+			[
+				"but",
+				"buttonText"
+			],
+			[
+				"addc",
+				"addChild"
+			],
+			[
+				"cl",
+				"clickSignal"
+			],
+			[
+				"Number",
+				"NumberPerPage"
+			],
+			[
+				"B",
+				"Browser"
+			],
+			[
+				"Gall",
+				"GalleryList"
+			],
+			[
+				"Gallery",
+				"GalleryList"
+			],
+			[
+				"f",
+				"FlickrAPI"
+			],
+			[
+				"search",
+				"searchTerm"
+			],
+			[
+				"gallery",
+				"galleryView"
+			],
+			[
+				"l",
+				"LoaderError"
+			],
+			[
+				"Lo",
+				"LoaderError"
+			],
+			[
+				"Load",
+				"LoadFlickrData"
+			],
+			[
+				"a",
+				"ApplicationContext"
+			],
+			[
+				"view",
+				"viewAdded"
+			],
+			[
+				"o",
+				"onRemove"
+			],
+			[
+				"galler",
+				"galleryModel"
+			],
+			[
+				"ga",
+				"galleryModel"
+			],
+			[
+				"LoadFli",
+				"LoadFlickrData"
+			],
+			[
+				"LoadF",
+				"LoadFlickrData"
+			],
+			[
+				"c",
+				"createUrl"
+			],
+			[
+				"J",
+				"JsonLoader"
+			],
+			[
+				"Sign",
+				"Signal1"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/flickrapp/flickr/view/SearchBoxView.hx",
+			"settings":
+			{
+				"buffer_size": 2423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flickrapp/flickr/view/GalleryView.hx",
+			"settings":
+			{
+				"buffer_size": 1025,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flickrapp/app/ApplicationView.hx",
+			"settings":
+			{
+				"buffer_size": 909,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flickrapp/flickr/view/GalleryItemView.hx",
+			"settings":
+			{
+				"buffer_size": 1726,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flickrapp/flickr/view/GalleryDetailedView.hx",
+			"settings":
+			{
+				"buffer_size": 2611,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flickrapp/flickr/view/GalleryDetailedViewMediator.hx",
+			"settings":
+			{
+				"buffer_size": 1166,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flickrapp/flickr/view/GalleryViewMediator.hx",
+			"settings":
+			{
+				"buffer_size": 925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flickrapp/flickr/view/GalleryItemViewMediator.hx",
+			"settings":
+			{
+				"buffer_size": 630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flickrapp/app/ApplicationViewMediator.hx",
+			"settings":
+			{
+				"buffer_size": 542,
+				"line_ending": "Unix",
+				"name": "A"
+			}
+		},
+		{
+			"file": "src/flickrapp/app/ApplicationContext.hx",
+			"settings":
+			{
+				"buffer_size": 1783,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flickrapp/flickr/view/SearchBoxViewMediator.hx",
+			"settings":
+			{
+				"buffer_size": 1050,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/flickrapp/flickr/model/GalleryModel.hx",
+			"settings":
+			{
+				"buffer_size": 1173,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/MassiveTask/haxe.sublime-build",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+			[
+				"ha",
+				"Set Syntax: haxe"
+			],
+			[
+				"haxe",
+				"Set Syntax: haxe"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 143.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/target/app/target/main.hxml",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/flickrapp/flickr/view/GalleryView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/flickrapp/flickr/view/GalleryViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/flickrapp/flickr/view/GalleryItemViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/flickrapp/app/ApplicationView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/flickrapp/flickr/view/GalleryItemView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/flickrapp/app/ApplicationContext.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/flickrapp/flickr/view/SearchBoxViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/flickrapp/flickr/command/LoadFlickrDataCommand.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/lib/mui/mui/display/Text.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/flickrapp/flickr/view/SearchBoxView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/build.hxml",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/project.json",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/Main.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/src/flickrapp/flickr/view/ButtonView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/mui_version/build/Build.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/new version/build/css/style.css",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/lib.json",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/project.json",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/GalleryContainerViewMediator",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/command/LoadFlickrDataCommand.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/GalleryContainerViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/model/GalleryStack.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/model/GalleryList.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/ButtonView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/core/DataView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/core/View.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/GalleryViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/api/FlickrAPI.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/GalleryItemView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/GalleryItemViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/GalleryView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/app/ApplicationContext.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/app/ApplicationView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/signal/LoadFlickrData.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/ButtonViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/build.hxml",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/iface/Photo.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/iface/Photo",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/SearchBoxView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/app/ApplicationViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/Main.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/SearchBoxMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/Flickr/project.json",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/Flickr/build/Build.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/example.iml",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/ButtonViewMediator",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/build/css/index.css",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/view/InputView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/model/GalleryModel.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/lib/mdata/mdata/ArrayList.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/model/TodoList.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/model/GalleryItemModel.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/src/flickrapp/flickr/api/FlickrAPI",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/lib/mloader/mloader/JsonLoader.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/example/app/ApplicationViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/new_flickrgallery/new_flickrgallery.sublime-project",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/example/todo/view/TodoListViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/example/todo/view/TodoListView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/example/core/DataView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/example/todo/view/TodoView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/example/todo/view/TodoStatsView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/example/todo/signal/LoadTodoList.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/example/app/ApplicationView.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/example/core/View.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/src/mmvc/api/IViewContainer.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/mcore/util/Types.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/mmvc/example/src/Main.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/MVCTest/README.md",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/MVCTest/src/mvctest/app/mediator/TodoListViewMediator.hx",
+		"/Users/leo.chen/Documents/LeoProjectWorkspace/MVCTest/src/mvctest/app/mediator/ApplicationViewMediator.hx",
+		"/Users/leo.chen/.bash_profile"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"true",
+			"DataComponent",
+			"center",
+			"onclick",
+			"model"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/flickrapp/flickr/view/SearchBoxView.hx",
+					"settings":
+					{
+						"buffer_size": 2423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2147,
+								2155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 800.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/flickrapp/flickr/view/GalleryView.hx",
+					"settings":
+					{
+						"buffer_size": 1025,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								883,
+								898
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 50.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/flickrapp/app/ApplicationView.hx",
+					"settings":
+					{
+						"buffer_size": 909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								907,
+								907
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/flickrapp/flickr/view/GalleryItemView.hx",
+					"settings":
+					{
+						"buffer_size": 1726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1450,
+								1452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/flickrapp/flickr/view/GalleryDetailedView.hx",
+					"settings":
+					{
+						"buffer_size": 2611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2417,
+								2417
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 920.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/flickrapp/flickr/view/GalleryDetailedViewMediator.hx",
+					"settings":
+					{
+						"buffer_size": 1166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								498,
+								498
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 50.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/flickrapp/flickr/view/GalleryViewMediator.hx",
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								799,
+								807
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 50.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/flickrapp/flickr/view/GalleryItemViewMediator.hx",
+					"settings":
+					{
+						"buffer_size": 630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/flickrapp/app/ApplicationViewMediator.hx",
+					"settings":
+					{
+						"buffer_size": 542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								542,
+								542
+							]
+						],
+						"settings":
+						{
+							"auto_name": "A",
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/flickrapp/app/ApplicationContext.hx",
+					"settings":
+					{
+						"buffer_size": 1783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1465,
+								1465
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 275.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/flickrapp/flickr/view/SearchBoxViewMediator.hx",
+					"settings":
+					{
+						"buffer_size": 1050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								748,
+								753
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/flickrapp/flickr/model/GalleryModel.hx",
+					"settings":
+					{
+						"buffer_size": 1173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1033,
+								1033
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MassiveTask/haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 515.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 334.0,
+	"status_bar_visible": true
+}

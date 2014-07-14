@@ -1,0 +1,12 @@
+# mtask
+/bin
+/.temp
+/build/User.hx
+
+# munit and mcover
+/.mcover
+TestSuite.hx
+
+# OS junk
+Thumbs.db
+.DS_Store

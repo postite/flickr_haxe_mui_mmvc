@@ -1,0 +1,13 @@
+.view, .view > div, .view > img
+{
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	cursor:inherit; margin:0; padding:0; position:absolute;
+}
+.view-text { white-space:nowrap; overflow:hidden; }
+.view-root { left:0px; right:0px; top:0px; bottom:0px; }
+.scrollable { overflow: auto; -webkit-overflow-scrolling: touch; }
+.scrollable-x { overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
+.scrollable-y { overflow-x: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; }

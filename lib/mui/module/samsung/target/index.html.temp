@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'>
+	<title>${title}</title>
+	<link rel='stylesheet' href='index.css'>
+</head>
+<body>
+	<script src='$MANAGER_WIDGET/Common/API/Plugin.js' type='text/javascript'></script>
+	<script src='$MANAGER_WIDGET/Common/API/Widget.js' type='text/javascript'></script>
+	<script src='scripts.js' type='text/javascript' charset='utf-8'></script>
+	<script src='index.js' type='text/javascript' charset='utf-8'></script>
+	<script type='text/javascript'>
+		window.onload = mui.module.samsung.Device.startup;
+		window.onunload = mui.module.samsung.Device.shutdown;
+		window.onshow = mui.module.samsung.Device.rendered;
+		window.onerror = function(e) {
+			alert("error: "+e);
+		}
+	</script>
+</body>
+</html>

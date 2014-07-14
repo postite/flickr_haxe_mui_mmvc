@@ -1,0 +1,19 @@
+{
+	"project":
+	{
+		"name":"MassiveSYS",
+		"version":"1.2.1",
+		"id":"msys",
+		"dependencies":
+		{
+			"mconsole":">= 1.3.0 <2.0.0",
+			"mcore":">= 1.2.0 <2.0.0"
+		},
+		"devDependencies":
+		{
+			"mtask":"haxe3",
+			"munit":"2.x",
+			"mcover":"2.x"
+		}
+	}
+}

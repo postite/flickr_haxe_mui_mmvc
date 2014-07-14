@@ -1,0 +1,2 @@
+main.hxml
+--macro include('mui.module.samsung.Device')

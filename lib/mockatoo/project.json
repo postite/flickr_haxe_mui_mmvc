@@ -1,0 +1,22 @@
+{
+	"project": 
+	{
+		"name": "Mockatoo",
+		"version": "3.1.5",
+		"id": "mockatoo",
+		"devDependencies": 
+		{
+			"hamcrest": "1.x",
+			"mtask": "3.x",
+			"munit": "2.x"
+		},
+		"dependencies": 
+		{
+			"mconsole": "1.x"
+		}
+	},
+	"haxelib": 
+	{
+		"user": "massive"
+	}
+}

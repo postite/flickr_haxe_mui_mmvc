@@ -1,0 +1,15 @@
+{
+	"name": "mcore",
+	"license": "MIT",
+	"tags": ["massive","cross","utility"],
+	"description": "A collection of lightweight, platform independent utilities that simplify cross platform development in Haxe.",
+	"contributors": ["default.user"],
+	"releasenote": "See https://github.com/massiveinteractive/mcore/blob/master/CHANGES.md",
+	"version": "1.3.10",
+	"url": "http://github.com/massiveinteractive/mcore",
+	"dependencies": 
+	{
+		"msignal": "",
+		"mconsole": ""
+	}
+}

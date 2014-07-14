@@ -1,0 +1,15 @@
+{
+	"name": "msys",
+	"license": "MIT",
+	"tags": ["utility","sys","massive"],
+	"description": "A cross platform Haxe library for working with system targets, including file, process and runloop utilities. Currently supports Neko and C++.",
+	"contributors": ["massive"],
+	"releasenote": "Added haxelib.json",
+	"version": "1.2.1",
+	"url": "http://github.com/massiveinteractive/msys",
+	"dependencies": 
+	{
+		"mconsole": "",
+		"mcore": ""
+	}
+}

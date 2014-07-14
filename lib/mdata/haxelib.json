@@ -1,0 +1,15 @@
+{
+	"name": "mdata",
+	"license": "MIT",
+	"tags": ["massive","cross","utility"],
+	"description": "A cross platform data structure and collections library supporting all Haxe targets.",
+	"contributors": ["massive"],
+	"releasenote": "See https://github.com/massiveinteractive/mdata/blob/master/CHANGES.md",
+	"version": "2.2.0",
+	"url": "http://github.com/massiveinteractive/mdata",
+	"dependencies": 
+	{
+		"msignal": "",
+		"mcore": ""
+	}
+}

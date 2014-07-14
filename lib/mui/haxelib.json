@@ -1,0 +1,20 @@
+{
+	"name": "mui",
+	"license": "Closed",
+	"tags": [],
+	"description": "A user interface library written in Haxe that targets Javascript/HTML, Flash/AIR and C++/SDL (native Win32, OS X, Linux, Android, iOS)",
+	"contributors": ["default.user"],
+	"releasenote": "3.1 release",
+	"version": "3.1.0",
+	"url": "http://github.com/massiveinteractive/MassiveUI",
+	"dependencies": 
+	{
+		"mmvc": "",
+		"msignal": "",
+		"mconsole": "",
+		"mcore": "",
+		"mdata": "",
+		"mloader": "",
+		"mtask": ""
+	}
+}

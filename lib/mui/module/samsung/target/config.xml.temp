@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget>
+	<ThumbIcon>icon/106.png</ThumbIcon>
+	<BigThumbIcon>icon/115.png</BigThumbIcon>
+	<ListIcon>icon/86.png</ListIcon>
+	<BigListIcon>icon/95.png</BigListIcon>
+	<category>none</category>
+	<type>user</type>
+	<cpname>Massive Interactive</cpname>
+	<cplogo></cplogo>
+	<cpauthjs></cpauthjs>
+	<ver>${build.project.version}</ver>
+	<mgver></mgver>
+	<fullwidget>y</fullwidget>
+	<srcctl>y</srcctl>
+	<ticker>n</ticker>
+	<childlock>n</childlock>
+	<audiomute>n</audiomute>
+	<videomute>n</videomute>
+	<dcont>y</dcont>
+	<widgetname>${title}</widgetname>
+	<description></description>
+	<width>${width}</width>
+	<height>${height}</height>
+	<author>
+		<name>${build.user.organization}</name>
+		<email></email>
+		<link></link>
+		<organization>${build.user.organization}</organization>
+	</author>
+</widget>

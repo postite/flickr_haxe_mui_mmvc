@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/2.5">
+	<id>com.channel5.${build.project.name}</id>
+	<versionNumber>${build.project.version}</versionNumber>
+	<filename>${build.project.name}</filename>
+	<name>${build.project.name}</name>
+	<initialWindow>
+		<content>index.swf</content>
+	</initialWindow>
+	<extensions>
+	    <extensionID>zinc.binding.air.Session</extensionID>
+	</extensions>
+</application>

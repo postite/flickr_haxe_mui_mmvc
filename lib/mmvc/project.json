@@ -1,0 +1,19 @@
+{
+	"project": 
+	{
+		"name": "MassiveMVC",
+		"version": "1.4.0",
+		"id": "mmvc",
+		"devDependencies": 
+		{
+			"mcover": "2.x",
+			"mtask": "3.x",
+			"munit": "2.x"
+		},
+		"dependencies": 
+		{
+			"minject": ">=1.2 <2",
+			"msignal": ">=1.2 <2"
+		}
+	}
+}
